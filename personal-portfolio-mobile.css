@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+footer img {
+  width: 28px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  border: solid 2px;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.navigation li:nth-of-type(1) {
+  background-color: black;
+}
+
+.navigation img {
+  width: 20px;
+}
+
+.background_black {
+  background-color: black;
+  color: white;
+  padding: 3.5rem 0 1.2rem 0;
+}
+
+.experience_single_container {
+  border: solid 1px;
+  border-color: grey;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.experience_single_container:nth-of-type(2) {
+  background-color: rgb(54, 54, 54);
+}
+
+.experience-icons {
+  width: 32px;
+}
+
+.person_img {
+  width: 100vw;
+}
+
+.projects_img {
+  width: 93vw;
+  height: 48vh;
+  border-radius: 16px;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+
+.external-link {
+  background-color: white;
+  border-radius: 3px;
+  width: 18px;
+}
